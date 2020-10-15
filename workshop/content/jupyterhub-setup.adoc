@@ -10,7 +10,7 @@ Today we'll begin by working in JupyterHub. an interactive development environme
 
 _JupyterHub is already deployed within your OpenShift project - we set it up for you using the Open Data Hub Operator._
 
-*Access JupyterHub directly by clicking http://{JUPYTERHUB_URL}[here].*
+*Access JupyterHub directly by clicking link:{JUPYTERHUB_URL}[here].*
 
 You will be taken to a page asking you to 'Sign in with OpenShift'.
 
