@@ -23,6 +23,8 @@ function initialize(workshop) {
         }
         var openshift_domain = workshop_vars['openshift_webconsole_url'].split(".").slice(-3).join(".");
         workshop.data_variable('openshift_route_domain', openshift_domain);
+        var apps_domain = workshop_vars['openshift_webconsole_url'].split(".").slice(-6).join(".");
+        workshop.data_variable('openshift_apps_domain', apps_domain);
     } catch(err) {}
 }
 
